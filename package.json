@@ -1,9 +1,23 @@
 {
-  "name": "authenticator-demo",
+  "name": "codepath-todo",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node -- --stage 1 --optional strict -- index.js"
   },
   "dependencies": {
-  }
+    "express": "^4.12.3",
+    "morgan": "^1.5.2"
+  },
+  "description": "**To run:** ``` npm start ```",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarankumarv/nodejs-authenticator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarankumarv/nodejs-authenticator/issues"
+  },
+  "homepage": "https://github.com/sarankumarv/nodejs-authenticator#readme"
 }
