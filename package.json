@@ -5,6 +5,7 @@
     "start": "nodemon --exec babel-node -- --stage 1 --optional strict -- index.js"
   },
   "dependencies": {
+    "ejs": "^2.3.1",
     "express": "^4.12.3",
     "morgan": "^1.5.2"
   },
